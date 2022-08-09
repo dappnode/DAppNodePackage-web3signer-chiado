@@ -1,0 +1,16 @@
+version: "2"
+fields:
+  - id: eth2Client
+    target:
+      type: environment
+      name: ETH2_CLIENT
+      service: web3signer
+    title: chiado Chain Consensus Layer Client
+    description: >-
+      **WARNING**: MAKE SURE YOU SELECT A CLIENT YOU ALREADY HAVE INSTALLED OR ARE ABOUT TO INSTALL. Select the chiado Chain Consensus Layer client you want the web3signer to listen requests from.
+      You can change this parameter in the future
+    enum:
+      - prysm
+      - teku
+      - lighthouse
+    required: true
