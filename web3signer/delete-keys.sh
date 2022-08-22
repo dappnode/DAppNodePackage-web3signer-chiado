@@ -5,7 +5,7 @@ CLIENTS_TO_REMOVE=("$@")
 for client in "${CLIENTS_TO_REMOVE[@]}"; do
   case "$client" in
   "prysm")
-    CLIENT_API="http://validator.chiado-beacon-chain-prysm.dappnode:3500"
+    CLIENT_API="http://validator.prysm-chiado.dappnode:3500"
     TOKEN_FILE="/security/prysm/auth-token"
     CERT_REQUEST=""
     ;;
