@@ -10,7 +10,7 @@ fields:
       **WARNING**: MAKE SURE YOU SELECT A CLIENT YOU ALREADY HAVE INSTALLED OR ARE ABOUT TO INSTALL. Select the chiado Chain Consensus Layer client you want the web3signer to listen requests from.
       You can change this parameter in the future
     enum:
-      - prysm
-      - teku
-      - lighthouse
+      - Lighthouse
+      - Lodestar
+      - Teku
     required: true
