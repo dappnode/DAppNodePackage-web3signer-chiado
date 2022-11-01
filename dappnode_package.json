@@ -1,6 +1,6 @@
 {
   "name": "web3signer-chiado.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "upstreamVersion": "22.7.0",
   "architectures": ["linux/amd64"],
   "upstreamRepo": "ConsenSys/web3signer",
